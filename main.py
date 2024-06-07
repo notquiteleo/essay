@@ -88,7 +88,8 @@ def bundle_pinned_issues_section():
     global ghiblog
 
     pinned_label = ghiblog.get_label(':+1:置顶')
-    pinned_issues = ghiblog.get_issues(labels=(pinned_label,))
+    # pinned_issues = ghiblog.get_issues(labels=(pinned_label,))
+    pinned_issues = ghiblog.get_issues(labels=[pinned_label])
 
     pinned_issues_section = '\n## 置顶 :thumbsup: \n'
 
