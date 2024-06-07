@@ -200,7 +200,7 @@ def bundle_cover_image_section() -> str:
     cover_label = ghiblog.get_label(':framed_picture:封面')
     if cover_label is None:
         return ''
-    cover_issues = ghiblog.get_issues(labels=(cover_label,))
+    cover_issues = ghiblog.get_issues(labels=[cover_label])
     if cover_issues is None or cover_issues.totalCount == 0:
         return ''
     comments = cover_issues[0].get_comments()
@@ -237,7 +237,7 @@ def bundle_projects_section() -> str:
     project_label = ghiblog.get_label('开源')
     if not project_label:
         return ''
-    issues = ghiblog.get_issues(labels=(project_label,))
+    issues = ghiblog.get_issues(labels=[project_label])
     if not issues or issues.totalCount == 0:
         return ''
     content = ''
