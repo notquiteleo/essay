@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/12"/>
     <img src="https://badgen.net/github/issues/notquiteleo/ghiblog"/>
-    <img src="https://badgen.net/badge/last-commit/2024-06-07 15:27:42"/>
+    <img src="https://badgen.net/badge/last-commit/2024-06-07 15:38:35"/>
     <img src="https://badgen.net/github/forks/notquiteleo/ghiblog"/>
     <img src="https://badgen.net/github/stars/notquiteleo/ghiblog"/>
     <img src="https://badgen.net/github/watchers/notquiteleo/ghiblog"/>
