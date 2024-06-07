@@ -41,6 +41,8 @@ def login():
     global user, username
     github_repo_env = os.environ.get('GITHUB_REPOSITORY')
     username = github_repo_env[0:github_repo_env.index('/')]
+    print("======check username:")
+    print(github_repo_env)
     password = os.environ.get('GITHUB_TOKEN')
     user = Github(username, password)
 
