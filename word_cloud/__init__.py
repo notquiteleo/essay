@@ -16,7 +16,7 @@ class WordCloudGenerator(object):
         labels = self._repo.get_labels()
 
         for label in labels:
-            issues_in_label = self._repo.get_issues(labels=(label,))
+            issues_in_label = self._repo.get_issues(labels=[label])
             frequencies[label.name] = issues_in_label.totalCount
 
         print(frequencies)
