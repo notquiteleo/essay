@@ -109,7 +109,8 @@ def format_issue_with_labels(issue: Issue):
         labels_str += '[%s](https://github.com/%s/ghiblog/labels/%s), ' % (
             label.name, username, urllib.parse.quote(label.name))
 
-    if '---' in issue.body:
+    # check issue body
+    if issue.body is not None and '---' in issue.body:
         body_summary = issue.body[:issue.body.index('---')]
     else:
         body_summary = issue.body[:150]
