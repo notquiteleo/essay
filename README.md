@@ -3,7 +3,7 @@
 <p align='center'>
     <img src="https://badgen.net/badge/labels/12"/>
     <img src="https://badgen.net/github/issues/notquiteleo/ghiblog"/>
-    <img src="https://badgen.net/badge/last-commit/2024-06-07 15:05:47"/>
+    <img src="https://badgen.net/badge/last-commit/2024-06-07 15:15:26"/>
     <img src="https://badgen.net/github/forks/notquiteleo/ghiblog"/>
     <img src="https://badgen.net/github/stars/notquiteleo/ghiblog"/>
     <img src="https://badgen.net/github/watchers/notquiteleo/ghiblog"/>
@@ -23,7 +23,7 @@
 
 #### [基于Github Action自动生成并更新GitHub Issue博客的ReadMe](https://github.com/notquiteleo/essay/issues/1) <sup>0 :speech_balloon:</sup> 	 2024-06-07 14:18:33+00:00
 
-:label: : [good first issue](https://github.com/notquiteleo/ghiblog/labels/good%20first%20issue), [:+1:置顶](https://github.com/notquiteleo/ghiblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)
+:label: : [:+1:置顶](https://github.com/notquiteleo/ghiblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)
 
 
 
@@ -85,9 +85,8 @@
 </details>
 
 <details>
-<summary>good first issue	<sup>1:newspaper:</sup></summary>
+<summary>good first issue	<sup>0:newspaper:</sup></summary>
 
-- [基于Github Action自动生成并更新GitHub Issue博客的ReadMe](https://github.com/notquiteleo/essay/issues/1)  <sup>0 :speech_balloon:</sup>  	 
 
 
 </details>
