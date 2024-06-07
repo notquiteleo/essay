@@ -110,7 +110,7 @@ def format_issue_with_labels(issue: Issue):
             label.name, username, urllib.parse.quote(label.name))
 
     # check issue body
-    if issue.body is not None
+    if issue.body is not None:
         if '---' in issue.body:
             body_summary = issue.body[:issue.body.index('---')]
         else:
